@@ -7,7 +7,7 @@
     "node": "20.x"
   },
   "scripts": {
-    "build": "prisma generate && node build",
+    "build": "prisma generate && vercel build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node ./src/index.js",
     "dev": "nodemon ./src/index.js"
